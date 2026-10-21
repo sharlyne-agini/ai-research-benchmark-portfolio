@@ -8,11 +8,10 @@
 - Plan: Free — verified from screenshot
 - Mode: Learn step by step — researcher-reported
 - Exact underlying model identifier: Not disclosed
-- Test date: Not explicitly confirmed for this run; transcript supplied
-  in the mentoring conversation on 2026-10-21
+- Test date: 2026-10-21 — confirmed by researcher
 - Input document: 00446668.pdf — US patent 446,668
-- Fresh conversation: Not explicitly confirmed
-- Reference answers supplied beforehand: Not explicitly confirmed
+- Fresh conversation: Yes — confirmed by researcher
+- Reference answers supplied beforehand: No — confirmed by researcher
 - Web search: Prohibited by prompt; actual tool use not independently verified
 - Transcript provenance: Researcher-supplied text in the mentoring conversation.
   Markdown formatting normalized; response wording preserved.
@@ -77,11 +76,11 @@ No. This document alone does not independently establish separate British filing
 
 How would you state the difference between an explicitly labeled filing date and a date merely associated with a foreign patent?
 
-## Preliminary Scoring — Rubric Version 1
+## Researcher-Accepted Scoring — Rubric Version 1
 
-Scoring proposed by: AI mentoring assistant
-Researcher acceptance: Pending
-Rubric: ../pilot-rubric.md
+- Scoring proposed by: AI mentoring assistant
+- Researcher acceptance: Accepted by Sharlyne Agini
+- Rubric: [Pilot rubric version 1](../pilot-rubric.md)
 
 | Question | Score | Reason |
 |---|---|---|
@@ -91,7 +90,7 @@ Rubric: ../pilot-rubric.md
 | Q4 | 2/2 | Correct British reference and date; source wording preserved. |
 | Q5 | 2/2 | Correctly distinguishes the associated British date from separately labelled filing and publication dates. |
 
-Total: 10/10 — provisional, pending researcher review.
+Total: 10/10 — researcher accepted; additional evidence checks remain.
 
 ## Qualitative Review
 
@@ -107,7 +106,8 @@ Total: 10/10 — provisional, pending researcher review.
 
 - One response to one document does not establish general model performance.
 - Exact underlying model identity and actual web-tool use are unknown.
-- Fresh-conversation status and absence of prior answer exposure remain unconfirmed.
+- Fresh-conversation status and absence of prior reference answers are
+  researcher-confirmed rather than independently captured.
 - The question wording matches the Gemini pilot, but numbering differs.
 - Interface modes differ between runs.
 - This is a comparison of recorded interface responses, not a verified
@@ -118,9 +118,12 @@ Total: 10/10 — provisional, pending researcher review.
 ## Evidence Status
 
 - Core answers checked against the previously reviewed source PDF page 2.
+- Researcher confirmed the test date, fresh conversation and absence of
+  reference answers supplied beforehand.
+- Researcher accepted the proposed question-level scores.
 - Screenshot perpl.PNG shows the Free plan, attached PDF and initial
   Search mode before the researcher reported switching modes.
 - That screenshot does not show the returned response or establish the
   final mode used.
 - Source PDF and screenshot preservation in the repository remains to be checked.
-- Revised record requires content review before publication.
+- Final saved-file review remains pending before publication.
