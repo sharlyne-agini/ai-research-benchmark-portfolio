@@ -1,9 +1,11 @@
 Phase,Task,Status,Expected deliverable,Actual deliverable,Evidence location,Outstanding issues,Next action
-Phase 0,Create private GitHub repository,Verified,Private repository with README,Private repository with README on main,README.md,None,Maintain private visibility during development
-Phase 0,Create project state record,Verified,Reviewed PROJECT_STATE.md,File creation confirmed by screenshot and full text reviewed,PROJECT_STATE.md,Progress references need updating,Update state after tracker review
-Phase 0,Create progress tracker,Verified,Reviewed tracker with eight required columns,All eight columns and eight task rows reviewed,tracking/progress-tracker.csv,None,Create research documentation templates
-Phase 0,Create research documentation templates,Not started,Reusable research and evaluation templates,None,templates/,Templates not yet created,Begin after tracker verification
-Phase 0,Establish project folders,Not started,Three project folders with purpose notes,None,projects/,Project folders not yet created,Create folders during setup
-Phase 0,Inventory research tools and AI access,Not started,Confirmed tool and model access inventory,None,Not yet assigned,Available access not yet confirmed,Record tools and access without credentials
-Phase 0,Confirm LinkedIn access,Not started,User confirmation of profile access,None,Not yet assigned,Access not yet confirmed,Confirm ability to edit own profile
-Phase 0,Review setup readiness,Not started,Verified Phase 0 checklist,None,PROJECT_STATE.md,Setup tasks remain incomplete,Review all setup evidence before Phase 1
+Phase 0,Establish GitHub workspace,Verified,Repository with documentation and tracker,Repository created and subsequently made publicly accessible,README.md,None,Maintain repository
+Phase 0,Maintain project state,Update required,Current continuity record,PROJECT_STATE.md created,PROJECT_STATE.md,Latest contents not reviewed,Record ENG-001 publication and next project
+Phase 0,Create research templates,Partially complete,Reusable research documentation templates,Research-log template reported saved,templates/research-log.md,Template contents not independently reviewed,Review when extending the methodology
+Phase 0,Record model access,Partially complete,Model and tool inventory,Two interface configurations documented in test records,projects/ENG-001-historical-patents/tests/,Central model-inventory.md not created,Create inventory before future evaluations
+ENG-001,Inspect US patent evidence,Verified,Source-backed reference facts,Patent identifiers and dates checked against scanned evidence,projects/ENG-001-historical-patents/evidence/00446668.pdf,None for published extraction scope,Retain evidence
+ENG-001,Investigate French patent reference,Closed with limitations,Documented cross-country findings,Initial patent and addition filing dates identified,projects/ENG-001-historical-patents/README.md,Meaning of 16 April 1883 unresolved,Retain limitation in publication
+ENG-001,Conduct document-evaluation pilot,Completed,Two preserved responses with rubric and scoring,Gemini and Perplexity responses assessed at 10/10 each,projects/ENG-001-historical-patents/tests/,Undisclosed model versions and unverified tool use,Report only task-specific results
+ENG-001,Publish case study and PDF,Published,Accessible case study with report and evidence,Report uploaded and links confirmed working by researcher,projects/ENG-001-historical-patents/README.md,No international model test conducted,Share as an exploratory pilot with supplementary archival research
+ENG-002,Technical specifications evaluation,Not started,Original technical evaluation case study,None,Not yet created,Research scope not selected,Define task before testing
+RES-003,International archival evaluation,Not started,Original cross-source research case study,None,Not yet created,Research scope not selected,Begin after ENG-002
