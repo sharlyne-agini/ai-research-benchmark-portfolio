@@ -8,7 +8,7 @@ Overall status: Setup in progress
 ## Purpose
 
 Develop practical skills in investigative research, source verification,
-benchmark construction and documented AI model evaluation.
+benchmark construction and documented AI model evaluation. 
 
 All projects are independent research. Findings and model failures will
 only be reported when supported by verified evidence and recorded tests.
