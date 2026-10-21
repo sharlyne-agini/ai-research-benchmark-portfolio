@@ -4,7 +4,8 @@
 - **Research date:** 21 October 2026
 - **Version:** 1.0 — publication draft
 - **Scope:** Exploratory document-evaluation pilot with supplementary US–France archival research
-- **Disclosure:** Independent research with AI-assisted mentoring and review
+
+- **[Read or download the research report](ENG-001_Research_Report.pdf)**
 
 ## Overview
 
