@@ -83,7 +83,7 @@ Total: 10/10 — provisional.
 ## Qualitative Review
 
 - No factual failure identified in the five core answers.
-- The additional page-1 attribution remains unchecked.
+- The additional page-1 date attribution was visually checked against the source PDF and is supported.
 - Supporting passages were assessed for factual support; character-for-character
   transcription fidelity has not been fully audited.
 - For Q5, the decisive limitation is that the US passage does not separately
