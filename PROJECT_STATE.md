@@ -1,9 +1,9 @@
 # Project State
 
-Last updated: 2026-10-21
-Project owner: Sharlyne Agini
-Current phase: Phase 0 — Environment and Project Setup
-Overall status: Setup in progress
+- Last updated: 2026-10-21
+- Project owner: Sharlyne Agini
+- Current phase: Phase 0 — Environment and Project Setup
+- Overall status: Setup in progress
 
 ## Purpose
 
