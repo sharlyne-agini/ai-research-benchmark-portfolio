@@ -14,38 +14,61 @@
 - Reference answers supplied beforehand: No — confirmed by researcher
 - Web search: Prohibited by prompt; actual tool use not independently verified
 - Additional interface context: Screenshot displayed Sharing "New Tab"
+- Transcript provenance: Copied by the researcher into the mentoring conversation.
+  The prompt and response below preserve that supplied text, with Markdown
+  formatting normalized.
 
 ## Exact Submitted Prompt
 
-[Replace this line with the complete prompt exactly as submitted.]
+Use only the attached patent document.
+
+1. Identify the US patent number, invention title and inventor.
+2. Give the application filing date and serial number.
+3. Give the date attached to the US Letters Patent.
+4. Extract the British patent number and associated date, preserving
+   how the document describes that date.
+5. Does this document alone independently establish the British
+   patent's filing and publication dates? Explain briefly.
+
+For each answer, identify the PDF page and supporting wording.
+Distinguish explicit statements from inference. If a fact cannot be
+established from this document, say so. Do not use web search.
 
 ## Complete Model Response
 
-[Replace this line with the complete response without corrections.]
+1. **US Patent Number, Invention Title, and Inventor**
+   - **US Patent Number:** 446,668
+   - **Invention Title:** Electric-Arc Light
+   - **Inventor:** Thomas A. Edison
+   - **PDF Page:** Page 2
+   - **Supporting Wording:** "UNITED STATES PATENT OFFICE. THOMAS A. EDISON, OF MENLO PARK, NEW JERSEY... ELECTRIC-ARC LIGHT. SPECIFICATION forming part of Letters Patent No. 446,668..." (Explicit statement)
 
-## Preliminary Assessment
+2. **Application Filing Date and Serial Number**
+   - **Filing Date:** August 7, 1882
+   - **Serial Number:** 68,651
+   - **PDF Page:** Page 2
+   - **Supporting Wording:** "Application filed August 7, 1882. Serial No. 68,651, (No model.)" (Explicit statement)
 
-- All five core answers agree with the reviewed page-2 reference evidence.
-- No factual failure identified in those five answers.
-- The additional page-1 attribution has not yet been checked.
-- Explanation of British-date uncertainty is substantively appropriate.
-- Underlying model version and actual tool use remain unverified.
-- This assessment was made after the response; a reusable scoring rubric
-  has not yet been finalized.
-- This single run does not establish comparative model performance.
+3. **Date Attached to the US Letters Patent**
+   - **Date:** February 17, 1891
+   - **PDF Page:** Page 2 (also found on page 1)
+   - **Supporting Wording:** "...dated February 17, 1891." and "Patented Feb. 17, 1891." (Explicit statement)
 
-## Evidence and Review Status
+4. **British Patent Number and Associated Date**
+   - **British Patent Number:** 3,976
+   - **Associated Date:** August 19, 1882 (described in the document as "dated August 19, 1882")
+   - **PDF Page:** Page 2
+   - **Supporting Wording:** "Patented in England August 19, 1882, No. 3,976" and "...for which I have obtained Letters Patent in Great Britain, No. 3,976, dated August 19, 1882..." (Explicit statement)
 
-- Source PDF page 2 visually reviewed by the mentoring assistant.
-- Prompt and response supplied by researcher as copied text.
-- Screenshot reviewed: gemini.PNG; shows prepared prompt and Auto mode,
-  not the returned response.
-- Researcher must review this assessment before final acceptance.
-- Source PDF and screenshot have not yet been confirmed saved in this repository.
+5. **Independent Establishment of British Patent Dates**
+   - **Does this document alone independently establish the British patent's filing and publication dates?** No.
+   - **Explanation:** While the document explicitly states the British patent number and an associated date ("August 19, 1882"), it merely lists these foreign patent details as a historical declaration by the patentee. It does not provide official British patent office records, filing receipts, or publication certificates to independently prove the legal filing and official publication events under British law. This is an explicit statement of foreign patent existence within the US text, requiring inference or external verification to confirm it as the official filing and publication timeline.
 
-- ## Researcher Scoring — Rubric Version 1
+## Researcher Scoring — Rubric Version 1
 
 Evaluator: Sharlyne Agini
+Review assistance: AI mentoring assistant
+Rubric: ../pilot-rubric.md
 
 | Question | Score | Reason |
 |---|---|---|
@@ -57,9 +80,32 @@ Evaluator: Sharlyne Agini
 
 Total: 10/10 — provisional.
 
-No factual failure identified in the five core answers.
-The additional page-1 claim remains unchecked.
-Actual web-tool use and exact underlying model version are unknown.
+## Qualitative Review
 
-The rubric was created after this exploratory response.
-This result applies only to this document, prompt and recorded run.
+- No factual failure identified in the five core answers.
+- The additional page-1 attribution remains unchecked.
+- Supporting passages were assessed for factual support; character-for-character
+  transcription fidelity has not been fully audited.
+- For Q5, the decisive limitation is that the US passage does not separately
+  identify British filing and publication events. Filing receipts or publication
+  certificates are examples offered by the model, not mandatory evidence types.
+- Actual web-tool use and exact underlying model version are unknown.
+- No hidden reasoning or internal model processes were available for analysis.
+
+## Methodological Limitations
+
+- The rubric was created after this exploratory response and was informed by it.
+- One response to one document does not establish general model performance.
+- This run tests document extraction and evidence limits, not international
+  archival research or web-source discovery.
+- No overall ranking against another model is justified.
+- The screenshot reviewed shows the prepared prompt and Auto mode, not the
+  returned response. The result is preserved from researcher-supplied text.
+
+## Evidence Status
+
+- Source PDF page 2 visually reviewed by the mentoring assistant.
+- Researcher confirmed a fresh conversation, one attached PDF and no
+  reference answers supplied before the test.
+- Source PDF and screenshot preservation in the repository remains to be checked.
+- This revised file must be reviewed after saving before publication.
