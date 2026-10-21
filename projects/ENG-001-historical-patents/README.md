@@ -49,6 +49,9 @@ verification was performed.
 | INPI 1BB148852 | Initial patent filing date: 9 May 1882 | [Initial record screenshot](evidence/inpi_initial_patent.PNG) |
 | INPI 1BB148852_1 | Certificate of Addition filing date: 26 December 1882 | [Addition record screenshot](evidence/inpi_addition.PNG) |
 
+[View US patent](evidence/00446668.pdf) · [Download PDF](evidence/00446668.pdf?raw=true)
+
+If GitHub cannot display the preview, use Download PDF.
 INPI identifies the applicant as EDISON Thomas-Alva. Its initial record
 concerns improvements to electric arc lighting and regulating mechanisms.
 
