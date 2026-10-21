@@ -95,7 +95,7 @@ Total: 10/10 — researcher accepted; additional evidence checks remain.
 ## Qualitative Review
 
 - No factual failure identified in the five core answers.
-- The additional page-1 attribution remains unchecked.
+- The additional page-1 date attribution was visually checked against the source PDF and is supported.
 - The final teaching question is preserved as additional output.
   It does not prevent completion of the requested answers.
 - Supporting passages were assessed for factual support; character-for-character
