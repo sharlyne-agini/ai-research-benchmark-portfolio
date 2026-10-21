@@ -148,7 +148,7 @@ Scores describe these recorded responses, not general model capabilities.
 - Web search was prohibited by the prompt; actual tool use was not verified.
 - Prompt numbering and interface modes differed.
 - The rubric was developed after the Gemini response.
-- Additional page-1 references in responses remain unchecked.
+- The additional page-1 date attribution was visually checked against the source PDF and is supported.
 - Character-for-character quotation fidelity has not been fully audited.
 - Transcripts were supplied by the researcher as copied text; setup
   screenshots do not independently capture the returned responses.
