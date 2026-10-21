@@ -46,13 +46,13 @@ verification was performed.
 | US446668, PDF page 2 | Application filed 7 August 1882; serial 68,651 | [US patent scan](evidence/00446668.pdf) |
 | US446668, PDF page 2 | US Letters Patent dated 17 February 1891 | [US patent scan](evidence/00446668.pdf) |
 | US446668, PDF page 2 | French patent 148,852 cited as dated 16 April 1883 | [US patent scan](evidence/00446668.pdf) |
-| INPI 1BB148852 | Initial patent filing date: 9 May 1882 | [Initial record screenshot](evidence/inpi_initial_patent.png.PNG) |
-| INPI 1BB148852_1 | Certificate of Addition filing date: 26 December 1882 | [Addition record screenshot](evidence/inpi_addition.png.PNG) |
+| INPI 1BB148852 | Initial patent filing date: 9 May 1882 | [Initial record screenshot](evidence/inpi_initial_patent.PNG) |
+| INPI 1BB148852_1 | Certificate of Addition filing date: 26 December 1882 | [Addition record screenshot](evidence/inpi_addition.PNG) |
 
 INPI identifies the applicant as EDISON Thomas-Alva. Its initial record
 concerns improvements to electric arc lighting and regulating mechanisms.
 
-The [first scanned image](evidence/french_patent_first_page.png.PNG)
+The [first scanned image](evidence/french_patent_first_page.PNG)
 also contains a 9 May 1882 deposit reference, corroborating the
 catalogue's filing-date entry.
 
@@ -188,6 +188,15 @@ versions and interface-controlled settings.
 - [Perplexity prompt, response and assessment](tests/pilot-002-perplexity.md)
 - [Evidence folder](evidence/)
 
+## Evidence Files
+
+| File | Contents |
+|---|---|
+| [00446668.pdf](evidence/00446668.pdf) | US patent document supplied in both pilot runs |
+| [inpi_initial_patent.PNG](evidence/inpi_initial_patent.PNG) | INPI initial-patent catalogue record |
+| [inpi_addition.PNG](evidence/inpi_addition.PNG) | INPI Certificate of Addition catalogue record |
+| [french_patent_first_page.PNG](evidence/french_patent_first_page.PNG) | Screenshot of the first scanned image in the initial French patent file |
+
 ## Primary-Source Access
 
 - [Rutgers-hosted US patent scan](https://edison.rutgers.edu/images/archive/patents/00446668.PDF)
@@ -197,7 +206,11 @@ versions and interface-controlled settings.
 - [INPI historical patent collection](https://en-archives.inpi.fr/patents)
 
 Sources were inspected during the research session on 21 October 2026.
-The INPI initial-record link was extracted from its saved catalogue HTML.
+The INPI initial-record link was extracted from its saved catalogue HTML;
+external availability has not been independently confirmed.
+If it does not resolve, search the historical collection for patent
+number `148852` and distinguish the initial patent from its addition.
+
 Screenshots are evidence captures, not substitutes for the full archive files.
 
 ## Reuse and Attribution
